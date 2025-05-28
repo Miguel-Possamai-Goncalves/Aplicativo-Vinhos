@@ -43,7 +43,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="CasaVino"
-                    android:textSize="30dp"
+                    android:textSize="30sp"
                     android:textColor="@color/bege_claro"/>
             </LinearLayout>
         </LinearLayout>
@@ -78,7 +78,7 @@
                 <ImageView
                     android:layout_width="32dp"
                     android:layout_height="32dp"
-                    android:src="@drawable/pessoas" />
+                    android:src="@drawable/add_pessoa" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -141,7 +141,7 @@
                 <ImageView
                     android:layout_width="32dp"
                     android:layout_height="32dp"
-                    android:src="@drawable/carrinho" />
+                    android:src="@drawable/add_carrinho" />
 
                 <TextView
                     android:layout_width="wrap_content"
