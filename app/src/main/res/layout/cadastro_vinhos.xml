@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bege">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <!-- Título -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/taca_vinho" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Vinhos"
+                android:textColor="@color/preto"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- "Cartão" branco com inputs -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/branco"
+            android:padding="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="6dp"
+            android:backgroundTint="@color/branco">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cadastrar Vinho"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/vinho"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preencha os dados para cadastrar um novo rótulo ao catálogo"
+                android:textColor="@color/preto"
+                android:layout_marginBottom="16dp"
+                android:textSize="16sp"/>
+
+            <!-- Nome do Vinho -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome do Vinho"
+                android:textColor="@color/preto"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:hint="Nome do vinho"
+                android:background="@color/bege_claro"
+                android:padding="10dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Safra -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Safra"
+                android:textColor="@color/preto"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:hint="Ano"
+                android:background="@color/bege_claro"
+                android:padding="10dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Tipo -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tipo"
+                android:textColor="@color/preto"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:hint="Selecione o tipo"
+                android:inputType="phone"
+                android:background="@color/bege_claro"
+                android:padding="10dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Uva -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uva"
+                android:textColor="@color/preto"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:hint="Tipo"
+                android:inputType="textEmailAddress"
+                android:background="@color/bege_claro"
+                android:padding="10dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Região -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Região"
+                android:textColor="@color/preto"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:hint="Região de origem"
+                android:background="@color/bege_claro"
+                android:padding="10dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Valor -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Valor (R$)"
+                android:textColor="@color/preto"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:hint="R$ 0,00"
+                android:background="@color/bege_claro"
+                android:padding="10dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Estoque -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estoque"
+                android:textColor="@color/preto"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:hint="Quantidade"
+                android:background="@color/bege_claro"
+                android:padding="10dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Descrição -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Descrição"
+                android:textColor="@color/preto"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minLines="3"
+                android:minHeight="48dp"
+                android:hint="Descrição"
+                android:inputType="textMultiLine"
+                android:gravity="top|start"
+                android:background="@color/bege_claro"
+                android:padding="10dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Notas-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notas de Degustação"
+                android:textColor="@color/preto"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minLines="3"
+                android:minHeight="48dp"
+                android:hint="Aroma, sabor, corpo, etc"
+                android:inputType="textMultiLine"
+                android:gravity="top|start"
+                android:background="@color/bege_claro"
+                android:padding="10dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Harmonizações -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harmonizações"
+                android:textColor="@color/preto"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minLines="3"
+                android:minHeight="48dp"
+                android:hint="Pratos que combinam com este vinho"
+                android:inputType="textMultiLine"
+                android:gravity="top|start"
+                android:background="@color/bege_claro"
+                android:padding="10dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Botão -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cadastrar Vinho"
+                android:backgroundTint="@color/vinho"
+                android:textColor="@color/branco"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
